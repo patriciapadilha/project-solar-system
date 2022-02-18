@@ -1,3 +1,22 @@
 .App {
   text-align: center;
 }
+
+.planets {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.planets p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.planets img {
+  width: 150px;
+}
+
+.planets img:hover {
+  width: 200px;
+}
