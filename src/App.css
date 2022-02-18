@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  background-image: url('/src/fundo.jpeg');
+}
+
 .planets {
   display: flex;
   justify-content: center;
@@ -9,6 +13,7 @@
 }
 
 .planets p {
+  color: white;
   font-size: 18px;
   text-align: center;
 }
@@ -19,4 +24,56 @@
 
 .planets img:hover {
   width: 200px;
+}
+
+.mission {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 12px;
+  text-align: center;
+}
+
+.missionCard {
+  background-color: rgb(157, 185, 216);
+  border-radius: 10px;
+  box-shadow: 3px 3px 23px 3px black;
+  color: #333;
+  font-size: 16px;
+  font-weight: 900;
+  height: 250px;
+  margin-bottom: 24px;
+  margin-right: 16px;
+  opacity: 50%;
+  width: 250px;
+}
+
+.missionCard p {
+  margin-top: 35px;
+}
+
+.missionCard:hover {
+  opacity: 100%;
+  transform: translateY(-10px);
+  transition: all 0.2s;
+}
+
+.title {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+header {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+footer {
+  color: white;
+  font-family: monospace;
+  font-size: 18px;
+  padding: 50px;
+  text-align: center;
 }

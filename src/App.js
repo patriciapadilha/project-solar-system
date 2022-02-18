@@ -11,6 +11,9 @@ class App extends React.Component {
         <Header />
         <SolarSystem />
         <Mission />
+        <footer>
+          Projeto desenvolvido para conclução do bloco Hello World React na Trybe
+        </footer>
       </div>
     );
   }
