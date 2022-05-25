@@ -10,4 +10,4 @@
 ### Sobre o desenvolvimento:
 - Individual;
 
-<img width="500px" alt="imagem da aplicação rodando" src="/video.gif">
+<img width="500px" alt="imagem da aplicação rodando" src="/solar-system.gif">
